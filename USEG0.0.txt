@@ -1,0 +1,52 @@
+@0
+##FIBONACCI PRINTR
+
+@1
+MOV 1, ACC
+L:
+ MOV ACC, DOWN
+ ADD DOWN
+ MOV ACC, DOWN
+ JMP L
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV 1, RIGHT
+MOV 1, RIGHT
+MOV 1, ACC
+L:
+ ADD UP
+ MOV ACC, UP
+ MOV ACC, RIGHT
+ MOV UP, RIGHT
+ JMP L
+
+@6
+MOV LEFT, DOWN
+
+@7
+
+
+@8
+
+
+@9
+
+
+@10
+MOV 16, ACC
+L: MOV UP, DOWN
+SUB 1
+JNZ L
+JRO 0
+
+@11
+
